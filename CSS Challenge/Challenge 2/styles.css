@@ -1,0 +1,134 @@
+:root {
+  --primary-blue: #3b82f6;
+  --primary-blue-dark: #2563eb;
+  --gray-800: #1f2937;
+  --neutral-400: #9ca3af;
+  --neutral-900: #111827;
+
+  /* Dark mode variables */
+  --bg-dark: #111827;
+  --text-dark: #ffffff;
+  --border-dark: #374151;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0px 120px;
+}
+
+.header {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.header button {
+  background-color: #2563eb;
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 15px;
+}
+
+.hero {
+}
+
+.hero-grid {
+  display: flex;
+  padding: 10px 0px;
+}
+
+.content-col {
+  width: 45%;
+  /* padding: 10px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.image-col {
+  width: 55%;
+}
+
+.hero-image {
+  width: 100%;
+  border-radius: 18px;
+}
+
+.content-col h1 {
+  font-size: 64px;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+
+.content-col p {
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+
+.cta-group input {
+  border: 1px solid #9ca3af;
+  width: 60%;
+  height: 42px;
+  font-size: 18px;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.cta-group input::placeholder {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.demo-button {
+  font-size: 17px;
+  background-color: #3b82f6;
+  border-radius: 5px;
+  color: white;
+  padding: 12px;
+  font-weight: 500;
+  border: none;
+}
+
+.sr-only {
+}
+
+.input-wrapper {
+}
+
+input[type='text'] {
+}
+
+.demo-button {
+}
+
+.demo-button:hover {
+}
+
+.brands-section {
+}
+
+.trusted-by {
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+.brand-logos {
+  display: flex;
+}
+
+.brand-logos svg {
+  width: 33.33%;
+  height: 35px;
+}
+
