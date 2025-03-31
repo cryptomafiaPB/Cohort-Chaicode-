@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, sans-serif;
+  line-height: 1.6;
+  color: white;
+  background-color: #0a0a0a;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    to bottom,
+    rgba(30, 26, 49, 1) 0%,
+    rgba(20, 18, 30, 1) 50%,
+    black 100%
+  );
+}
+
+.hero {
+  text-align: center;
+  width: 100%; /* Take full width */
+  max-width: 800px; /* Limit width for larger screens */
+  padding: 20px;
+}
+
+.announcement {
+  background-color: #1f1a29;
+  border-radius: 50px;
+  padding: 10px 20px;
+  border: 1px solid #35313d;
+  margin-bottom: 30px;
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.announcement-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+.announcement:hover {
+  transform: translateY(-3px);
+}
+
+.announcement-text {
+  font-size: 14px;
+  margin-right: 10px;
+}
+.announcement-button svg {
+  width: 16px;
+  height: 16px;
+}
+.announcement-button {
+  width: 50px;
+  padding: 4px;
+  background-color: #35313d;
+  color: white;
+  border-radius: 50px;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  line-height: normal;
+}
+
+.hero-description {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 40px;
+  color: rgba(255, 255, 255, 0.8);
+  inline-size: 70%;
+  font-weight: 400;
+}
+
+.cta-button {
+  background: linear-gradient(to right, #667eea, #764ba2);
+  color: white;
+  padding: 15px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  font-weight: 500;
+  transition: transform 0.2s ease;
+}
+
+.cta-button:hover {
+  transform: translateY(-3px);
+}
+
+@media (max-width: 640px) {
+  .hero {
+    padding: 1rem;
+  }
+
+  .announcement-link {
+    font-size: 0.75rem;
+  }
+
+  .hero-content {
+    padding: 0 1rem;
+  }
+}
